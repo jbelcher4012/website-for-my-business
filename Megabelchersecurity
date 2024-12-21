@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Guard Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #00274d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0056b3;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        #hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(to right, #e3f2fd, #90caf9);
+        }
+        #hero h1 {
+            color: #0056b3;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            color: white;
+            background-color: #0056b3;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #003f82;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #00274d;
+            color: white;
+        }
+        footer a {
+            color: #90caf9;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Security Guard Services</h1>
+    </header>
+    <nav aria-label="Main Navigation">
+        <a href="#hero">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div id="hero">
+        <h1>Protecting What Matters Most</h1>
+        <p>Your trusted partner in security for businesses and individuals.</p>
+        <a href="#services" class="btn">Learn More</a>
+    </div>
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li><strong>Business Security</strong> - Comprehensive protection for your business premises.</li>
+            <li><strong>Event Security</strong> - Ensuring safety and order at your events.</li>
+            <li><strong>Personal Security</strong> - Dedicated personal protection services.</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Security Guard Services. All rights reserved.</p>
+    </footer>
+</body>
+</html>
